@@ -1,33 +1,14 @@
 # reproduction-vue-i18n-blocks-error
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a reproduction project showing an error when trying to use vue-i18n in combination with [i18n blocks in single file components](https://vue-i18n.intlify.dev/guide/advanced/sfc.html#single-file-components) and the Vue `<script setup>` style of writing components.
 
-## Recommended IDE Setup
+## Start and observe error
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. Run `npm ci`
+2. Run `npm run dev`
+3. In a browser navigate to started development application (usually http://localhost:5173/)
+4. Open browser DevTools
+6. Refresh the page
+7. Observe console error: "Uncaught SyntaxError: Not support non-string message"
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+![Screenshot of console error](./error-screenshot.png)
