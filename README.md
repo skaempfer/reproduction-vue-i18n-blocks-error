@@ -1,6 +1,6 @@
 # reproduction-vue-i18n-blocks-error
 
-This is a reproduction project showing an error when trying to use vue-i18n in combination with [i18n blocks in single file components](https://vue-i18n.intlify.dev/guide/advanced/sfc.html#single-file-components) and the Vue `<script setup>` style of writing components.
+This is a reproduction project showing an error when trying to use vue-i18n in combination with [i18n blocks in single file components](https://vue-i18n.intlify.dev/guide/advanced/sfc.html#single-file-components), Vite bundler and the Vue `<script setup>` style of writing components.
 
 ## Start and observe error
 
